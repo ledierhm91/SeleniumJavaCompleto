@@ -39,6 +39,7 @@ public class ejercicio2 {
         //Assert.assertEquals(driver.getTitle(), "¿Has olvidado la contraseña? | No puedo entrar | Facebook","Se deberia estar en la sección de Olvidaste tu contraseña");
         Assert.assertEquals(driver.getTitle(), "¿Olvidaste tu contraseña? | No puedo iniciar sesión | Facebook","Se deberia estar en la sección de Olvidaste tu contraseña");
         Assert.assertNotEquals(driver.getCurrentUrl(), "https://www.facebook.com/", "Se deberia estar en otra url");
+        driver.close();
     }
 
     //ejercicio 2

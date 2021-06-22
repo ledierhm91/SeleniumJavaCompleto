@@ -65,6 +65,7 @@ public class ejercicio2 {
         driver.findElement(By.name("mydomain")).sendKeys("as");
         driver.findElement(By.id("mydomainContinue")).click();
         driver.findElement(By.id("okta-signin-username")).sendKeys("test@test.com");
+        driver.close();
     }
 
 

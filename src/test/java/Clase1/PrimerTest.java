@@ -124,6 +124,7 @@ public class PrimerTest {
                 System.out.println(listalinks.get(i).getText());
         }
         }
+        driver.close();
 }
 //Ejercicio 6
     @Test

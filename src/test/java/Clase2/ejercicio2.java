@@ -139,6 +139,7 @@ public class ejercicio2 {
         }
         //System.out.println("No se encontro el mes introducido");
         Assert.assertTrue(encontrar);
+        driver.close();
     }
     //ejercicio 8
     @Test

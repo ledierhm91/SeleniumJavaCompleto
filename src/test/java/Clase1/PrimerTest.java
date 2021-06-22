@@ -104,7 +104,7 @@ public class PrimerTest {
             System.out.println("Links -> " + elementos.getText());
         }
         }
-        driver.quit();
+        driver.close();
 
 }
 

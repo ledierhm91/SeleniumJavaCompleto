@@ -107,6 +107,7 @@ public class ejercicio2 {
 
         WebElement boton=driver.findElement(By.name("websubmit"));
         boton.click();
+        driver.close();
     }
 
     //ejercicio 7

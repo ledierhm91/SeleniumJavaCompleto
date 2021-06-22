@@ -52,6 +52,7 @@ public class ejercicio2 {
         System.out.println("Titulo Despúes: " + driver.getTitle());
         //Assert.assertEquals(driver.getTitle(), "¿Has olvidado la contraseña? | No puedo entrar | Facebook","Se deberia estar en la sección de Olvidaste tu contraseña");
         Assert.assertEquals(driver.getTitle(), "¿Olvidaste tu contraseña? | No puedo iniciar sesión | Facebook","Se deberia estar en la sección de Olvidaste tu contraseña");
+        driver.close();
     }
 
     //ejercicio 3

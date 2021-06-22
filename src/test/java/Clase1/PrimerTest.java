@@ -39,6 +39,7 @@ public class PrimerTest {
         driver.manage().window().maximize();
         System.out.println("El título de la página es " + driver.getTitle());
         System.out.println("La url de la página es " + driver.getCurrentUrl());
+        driver.close();
     }
 
     //este test es para encontrar la cantidad de h1 y h2 y todos los textos de h1 y h2//

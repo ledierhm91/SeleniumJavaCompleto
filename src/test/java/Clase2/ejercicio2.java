@@ -155,6 +155,7 @@ public class ejercicio2 {
         driver.findElement(By.name("reg_email_confirmation__")).sendKeys("juanlopez@gmail.com");
         driver.findElement(By.id("password_step_input")).sendKeys("locoloco");
         Setbirthdate(driver, "2", "ene", "1991");
+        driver.close();
     }
 
     //ejercicio 8 método privado

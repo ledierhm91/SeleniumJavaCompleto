@@ -1,0 +1,13 @@
+<suite name="Caracteristicas" parallel="false">
+    <test name="pruebas de nivel de unidad">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.OrdenEjecución1.TestClass1"/>
+        </classes>
+    </test>
+    <test name="pruebas de nivel de aceptación">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.OrdenEjecución1.TestClass2"/>
+            <class name="Quality.AnotacionesTestNG.OrdenEjecución1.TestClass3"/>
+        </classes>
+    </test>
+</suite>

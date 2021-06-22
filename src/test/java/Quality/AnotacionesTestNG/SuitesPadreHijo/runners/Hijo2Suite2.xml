@@ -1,0 +1,7 @@
+<suite name="Hijo2 Suite2">
+    <test name="Test">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.SuitesPadreHijo.TestClassHijo2"/>
+        </classes>
+    </test>
+</suite>

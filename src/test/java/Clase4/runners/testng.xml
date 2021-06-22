@@ -1,0 +1,8 @@
+<suite name="Clase 4">
+    <test name="Ejercicios testng">
+        <parameter name="tagName" value="h1"></parameter>
+        <classes>
+            <class name="Clase4.testngTests"></class>
+        </classes>
+    </test>
+</suite>

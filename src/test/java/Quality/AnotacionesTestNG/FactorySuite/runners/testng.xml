@@ -1,0 +1,7 @@
+<suite name="Suite" parallel="false">
+    <test name="Factory">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.FactorySuite.FactoryClass" />
+        </classes>
+    </test>
+</suite>

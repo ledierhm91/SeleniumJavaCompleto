@@ -1,0 +1,7 @@
+<suite name="Padre Suite">
+    <parameter name="param" value="SuiteExample"></parameter>
+    <suite-files>
+        <suite-file path="Hijo1Suite1.xml"/>
+        <suite-file path="Hijo2Suite2.xml"/>
+    </suite-files>
+</suite>

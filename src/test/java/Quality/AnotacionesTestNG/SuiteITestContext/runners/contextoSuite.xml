@@ -1,0 +1,7 @@
+<suite name="Contexto Suite(Imprimir nombre de la suite)">
+    <test name="Test">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.SuiteITestContext.ContextoSuite"/>
+        </classes>
+    </test>
+</suite>

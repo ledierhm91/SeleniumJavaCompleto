@@ -1,0 +1,8 @@
+<suite name="Clase 4">
+    <parameter name="specificTag" value="h2"></parameter>
+    <test name="Todos los Test !!">
+        <classes>
+            <class name="Clase4.spotifyTags"></class>
+        </classes>
+    </test>
+</suite>

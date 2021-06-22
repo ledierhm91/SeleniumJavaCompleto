@@ -1,0 +1,13 @@
+<suite name="Clase 4" verbose="1">
+    <test name="Todos los Test !!">
+        <groups>
+        <run>
+            <include name= "pasado" />
+            <include name= "fallado" />
+        </run>
+        </groups>
+        <classes>
+            <class name="Clase4.groupTests"></class>
+        </classes>
+    </test>
+</suite>

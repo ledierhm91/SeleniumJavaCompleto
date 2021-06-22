@@ -1,0 +1,7 @@
+<suite name="Suite" parallel="false">
+    <test name="Dependencia Test">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.DependenciaTestSuite.BeforeSuiteDependency" />
+        </classes>
+    </test>
+</suite>

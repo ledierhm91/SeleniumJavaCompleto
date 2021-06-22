@@ -1,0 +1,18 @@
+<suite name="SuiteSearch">
+    <test name="Search Blouses">
+        <parameter name="tagName" value="h1"></parameter>
+        <classes>
+            <class name="Quality.reportsExample.SearchBlouses"></class>
+        </classes>
+    </test>
+    <test name="Search Summer Dresses">
+        <classes>
+            <class name="Quality.reportsExample.SearchSummerDresses"></class>
+        </classes>
+    </test>
+    <test name="Search Chiffon Dresses">
+        <classes>
+            <class name="Quality.reportsExample.SearchChiffonDresses"></class>
+        </classes>
+    </test>
+</suite>

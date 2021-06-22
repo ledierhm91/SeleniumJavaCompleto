@@ -104,6 +104,7 @@ public class PrimerTest {
             System.out.println("Links -> " + elementos.getText());
         }
         }
+        driver.quit();
 }
 
 //este test es para encontrar solo 3 links de la página y que no esten vacios//

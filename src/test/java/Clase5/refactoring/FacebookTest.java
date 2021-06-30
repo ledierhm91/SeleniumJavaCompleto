@@ -6,8 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
-import Clase5.refactoring.DriverUtilities;
-import Clase5.refactoring.FacebookRegistrationForm;
 
 import java.util.concurrent.TimeUnit;
 

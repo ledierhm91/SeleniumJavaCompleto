@@ -1,6 +1,5 @@
 package Clase7.test;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -8,9 +7,7 @@ import org.testng.annotations.Test;
 import Clase7.pageObject.Docusign.DocusignLandingPage;
 import Clase7.pageObject.Docusign.DocusignRegistrationPage;
 
-import java.util.concurrent.TimeUnit;
-
-public class DocusignTest extends BaseTest{
+public class DocusignTest extends BaseTest {
 
     @BeforeMethod
     public void setupDocusignTest(){

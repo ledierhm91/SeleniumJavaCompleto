@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import Clase7.pageObject.BaseUITest;
 
-import java.util.List;
-
 public class ShopifyLoginPage extends BaseUITest {
 
     public ShopifyLoginPage(WebDriver remoteDriver){

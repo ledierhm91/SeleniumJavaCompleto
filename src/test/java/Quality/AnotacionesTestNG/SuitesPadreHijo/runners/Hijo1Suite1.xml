@@ -1,4 +1,5 @@
 <suite name="Hijo1 Suite1">
+    <parameter name="param" value="SuiteExample"></parameter>
     <test name="Test">
         <classes>
             <class name="Quality.AnotacionesTestNG.SuitesPadreHijo.TestClassHijo1"/>

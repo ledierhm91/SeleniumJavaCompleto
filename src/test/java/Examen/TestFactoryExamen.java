@@ -1,5 +1,4 @@
 package Examen;
-import Examen.prueba_netflix;
 
 import org.testng.annotations.Factory;
 

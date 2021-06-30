@@ -1,6 +1,5 @@
 package Examen;
 
-import Examen.DataGeneratorExamen;
 import com.github.javafaker.Faker;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;

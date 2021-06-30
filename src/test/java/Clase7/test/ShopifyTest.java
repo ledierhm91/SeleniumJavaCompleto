@@ -44,7 +44,8 @@ public class ShopifyTest extends BaseTest {
         shopifyLoginPage.clickOnSiguienteBtn();
 
         WebElement errMsg = shopifyLoginPage.getErrorMsg();
-        Assert.assertEquals(errMsg.getText(), "Dirección de tienda incorrecta. Una dirección de tienda válida termina en .myshopify.com, .com, u otra extensión de dominio.");
+        Assert.assertEquals(errMsg.getText(), "Por favor ingresa una dirección de correo electrónico válida");
+
     }
 
     @AfterClass   //AfterMethod  pudiera ser también.

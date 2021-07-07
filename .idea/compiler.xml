@@ -10,6 +10,7 @@
         <module name="ProyectoEnJava" />
         <module name="SeleniumJavaTodo" />
         <module name="SeleniumJavaCompleto" />
+        <module name="JavaSelenium" />
         <module name="ProyectoEnJavaCurso" />
       </profile>
     </annotationProcessing>

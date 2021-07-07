@@ -1,8 +1,0 @@
-<suite name="Examen">
-    <parameter name="tagName" value="h1"></parameter>
-    <test name="Examen de Selenium">
-        <classes>
-            <class name="Examen.prueba_netflix"></class>
-        </classes>
-    </test>
-</suite>

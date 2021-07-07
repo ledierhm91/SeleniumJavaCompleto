@@ -1,8 +1,0 @@
-<suite name="Clase 4">
-    <test name="Ejercicios testng">
-        <classes>
-            <class name="Clase4.spotifyTestng"></class>
-        </classes>
-    </test>
-</suite>
-

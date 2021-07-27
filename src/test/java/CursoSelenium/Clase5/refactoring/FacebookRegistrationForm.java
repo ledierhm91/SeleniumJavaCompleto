@@ -1,7 +1,9 @@
 package CursoSelenium.Clase5.refactoring;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.DataProvider;
 
 public class FacebookRegistrationForm {
 
@@ -30,5 +32,26 @@ public class FacebookRegistrationForm {
 
     }
 
+    public void fillingFormFaker(){
+        Faker faker_data = new Faker();
+        String nombre = faker_data.name().firstName();
+        String apellido = faker_data.name().lastName();
+        String email = faker_data.internet().emailAddress();
+        driver.findElement(By.name("firstname")).sendKeys(nombre);
+        driver.findElement(By.name("lastname")).sendKeys(apellido);
+        driver.findElement(By.name("reg_email__")).sendKeys(email);
+        driver.findElement(By.name("reg_email_confirmation__")).sendKeys(email);
+        driver.findElement(By.xpath("//*[@name='sex'][@value='-1']")).click();
 
+    }
+
+
+    public void fillingFormDataProvider(String nombre1, String apellido1, String mail1, String mail2){
+        driver.findElement(By.name("firstname")).sendKeys(nombre1);
+        driver.findElement(By.name("lastname")).sendKeys(apellido1);
+        driver.findElement(By.name("reg_email__")).sendKeys(mail1);
+        driver.findElement(By.name("reg_email_confirmation__")).sendKeys(mail2);
+        driver.findElement(By.xpath("//*[@name='sex'][@value='-1']")).click();
+
+    }
 }

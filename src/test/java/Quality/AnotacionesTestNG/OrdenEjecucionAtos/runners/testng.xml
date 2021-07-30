@@ -1,0 +1,12 @@
+<suite name="Suite" parallel="false">
+    <test name="prueba1">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.OrdenEjecucionAtos.clase1" />
+        </classes>
+    </test>
+    <test name="pruebas2">
+        <classes>
+            <class name="Quality.AnotacionesTestNG.OrdenEjecucionAtos.clase2" />
+        </classes>
+    </test>
+</suite>

@@ -19,7 +19,7 @@ public class PrimerTest {
 
     //método que que recibe una url por parámetros, setea el setproperty, crea el WebDriver, navega hacia la url que se paso y devuelve un objeto de tipo WebDriver//
     private WebDriver inicializarSitioGetDriver(String URL){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver= new ChromeDriver();
         driver.get(URL);
         return driver;

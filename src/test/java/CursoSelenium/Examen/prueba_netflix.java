@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class prueba_netflix {
 
     WebDriver driver;
+    
 
 /*
     String email;

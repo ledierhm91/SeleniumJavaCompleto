@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CursoSelenium" />
         <module name="ProyectoEnJava" />
         <module name="SeleniumJavaTodo" />
+        <module name="CursoSelenium" />
+        <module name="ProyectoSeleniumTodo" />
         <module name="SeleniumJavaCompleto" />
         <module name="JavaSelenium" />
         <module name="ProyectoEnJavaCurso" />

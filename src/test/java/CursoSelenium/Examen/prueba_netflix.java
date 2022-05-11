@@ -33,6 +33,7 @@ public class prueba_netflix {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     public String getDate(){
         //DateFormat dateformat=new SimpleDateFormat("HH:mm:ss");
         DateFormat dateformat=new SimpleDateFormat("dd-MM-yy"); //EL formato en que quiero que me devuelva la fecha

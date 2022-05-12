@@ -14,6 +14,11 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.appium/java-client --><dependency>
+        <groupId>io.appium</groupId>
+        <artifactId>java-client</artifactId>
+        <version>7.6.0</version>
+    </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>

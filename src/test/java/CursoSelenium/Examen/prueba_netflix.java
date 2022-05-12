@@ -27,12 +27,13 @@ public class prueba_netflix {
 */
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://www.netflix.com");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     public String getDate(){
         //DateFormat dateformat=new SimpleDateFormat("HH:mm:ss");
         DateFormat dateformat=new SimpleDateFormat("dd-MM-yy"); //EL formato en que quiero que me devuelva la fecha

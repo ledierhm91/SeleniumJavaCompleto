@@ -6,18 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProyectoEnJava" />
-        <module name="SeleniumJavaTodo" />
-<<<<<<< HEAD
-        <module name="CursoSelenium" />
         <module name="ProyectoSeleniumTodo" />
-=======
-        <module name="SeleniumCompleto" />
-        <module name="CursoSelenium" />
->>>>>>> e8f6994 (update framework)
-        <module name="SeleniumJavaCompleto" />
-        <module name="JavaSelenium" />
-        <module name="ProyectoEnJavaCurso" />
       </profile>
     </annotationProcessing>
   </component>

@@ -27,7 +27,7 @@ public class prueba_netflix {
 */
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://www.netflix.com");
         driver.manage().window().maximize();

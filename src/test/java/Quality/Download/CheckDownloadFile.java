@@ -20,11 +20,11 @@ import java.util.HashMap;
 //En esta clase se establece una conexión con el link de descarga y poder acceder a los datos del HEAD(encabezado) y esta informaciones nos permite saber si la funcionalidad de descarga del fichero trabaja correctamente.
 public class CheckDownloadFile {
     WebDriver driver;
-    private String downloadfilepath= "C:\\Users\\Admin\\Desktop\\TestDescarga";
+    private String downloadfilepath= "/Users/ledier.hernandez/Documents/TestDescarga";
 
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/download");
     }

@@ -18,11 +18,11 @@ import java.util.concurrent.TimeUnit;
 public class download_file {
 
     WebDriver driver;
-    private String downloadfilepath= "C:\\Users\\Admin\\Desktop\\TestDescarga";
+    private String downloadfilepath= "/Users/ledier.hernandez/Documents/TestDescarga";
 
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         HashMap<String, Object> chromePrefs= new HashMap<String, Object>();
         chromePrefs.put("profile.default_content_settings.popups", 0);
         chromePrefs.put("download.default_directory", downloadfilepath);
@@ -56,7 +56,7 @@ public class download_file {
 
         File [] lisofFilesdespues =folder.listFiles();  //En este arreglo se va guardar todos los archivos que se descargaron en la carpeta que declaramos después de la descarga.
         Assert.assertTrue(lisofFilesdespues.length>lisofFilesantes.length, "File not download correctly");
-        System.out.println("La cantidad de archivos antes de la descarga es " + lisofFilesdespues.length);
+        System.out.println("La cantidad de archivos despues de la descarga es " + lisofFilesdespues.length);
     }
 
     @AfterMethod

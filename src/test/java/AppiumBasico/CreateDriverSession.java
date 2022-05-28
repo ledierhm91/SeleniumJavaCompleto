@@ -30,7 +30,7 @@ public class CreateDriverSession {
                 //caps.setCapability(MobileCapabilityType.UDID, "R28M415FXEX");
 
                 //Para iniciar el emulador automaticamente
-                //caps.setCapability("avd", "Pixel5_Android11");
+                caps.setCapability("avd", "Pixel5_Android11");
                 caps.setCapability("avdLauchTimeout", 118000);
 
 

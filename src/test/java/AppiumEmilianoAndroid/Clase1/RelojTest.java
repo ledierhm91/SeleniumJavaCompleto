@@ -17,8 +17,12 @@ public class RelojTest {
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "11.0");
         caps.setCapability("udid", "RF8R60DRBYY");
+        //caps.setCapability("udid", "emulator-5554");
         caps.setCapability("appPackage", "com.sec.android.app.clockpackage");
         caps.setCapability("appActivity", "com.sec.android.app.clockpackage.ClockPackage");
+
+        //caps.setCapability("appPackage", "com.android.contacts");
+        //caps.setCapability("appActivity", "com.android.contacts.activities.PeopleActivity");
 
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
 

@@ -28,6 +28,7 @@ public class CreateDriverSession {
                 caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                 caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
                 //caps.setCapability(MobileCapabilityType.UDID, "R28M415FXEX");
+                //caps.setCapability(MobileCapabilityType.UDID, "RF8R60DRBYY");
 
                 //Para iniciar el emulador automaticamente
                 caps.setCapability("avd", "Pixel5_Android11");

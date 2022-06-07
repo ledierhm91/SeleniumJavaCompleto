@@ -24,7 +24,7 @@ public class CheckDownloadFile {
 
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/download");
     }

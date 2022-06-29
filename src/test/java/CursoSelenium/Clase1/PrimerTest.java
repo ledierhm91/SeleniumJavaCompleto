@@ -11,7 +11,7 @@ public class PrimerTest {
 
     //método que devuelve un objeto de tipo WebDriver para e instanciar el ChromeDriver y setiar las properti donde esta el driver y acceder a facebook//
     private WebDriver inicializarfacebook(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         WebDriver driver= new ChromeDriver();
         driver.get("http://www.facebook.com");
         return driver;
@@ -19,7 +19,7 @@ public class PrimerTest {
 
     //método que que recibe una url por parámetros, setea el setproperty, crea el WebDriver, navega hacia la url que se paso y devuelve un objeto de tipo WebDriver//
     private WebDriver inicializarSitioGetDriver(String URL){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         WebDriver driver= new ChromeDriver();
         driver.get(URL);
         return driver;

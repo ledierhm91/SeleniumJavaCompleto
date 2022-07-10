@@ -30,7 +30,7 @@ public class testngTests {
 
     @BeforeMethod
     public void beforeMethodTest(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get(URL);
     }
